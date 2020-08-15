@@ -1,0 +1,1 @@
+consul 启动命令 ： consul agent -dev -ui

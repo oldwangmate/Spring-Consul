@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: consul-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        heartbeat:
+          enabled: true
+        instance-id: ${spring.application.name}

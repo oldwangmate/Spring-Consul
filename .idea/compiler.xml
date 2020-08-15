@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-Consul" />
+        <module name="consul-common" />
+        <module name="consul-consumer" />
+        <module name="consul-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
