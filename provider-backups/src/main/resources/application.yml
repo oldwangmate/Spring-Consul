@@ -1,5 +1,5 @@
 server:
-  port: 7070
+  port: 7071
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -13,7 +13,7 @@ spring:
       discovery:
         heartbeat:
           enabled: true
-        instance-id: ${spring.application.name}:${server.port}
+        instance-id: provider-backups:${server.port}
         service-name: ${spring.application.name}
   application:
     name: consul-provider

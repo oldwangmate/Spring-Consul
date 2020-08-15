@@ -12,6 +12,7 @@
         <module>consul-consumer</module>
         <module>consul-provider</module>
         <module>consul-common</module>
+        <module>provider-backups</module>
     </modules>
 
     <parent>

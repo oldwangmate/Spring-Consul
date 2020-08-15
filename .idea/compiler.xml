@@ -9,8 +9,13 @@
         <module name="consul-common" />
         <module name="consul-consumer" />
         <module name="consul-provider" />
+        <module name="consul-provider-backups" />
+        <module name="provider-backups" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="consul-provider (1)" target="1.8" />
+      <module name="consul-provider-backups" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

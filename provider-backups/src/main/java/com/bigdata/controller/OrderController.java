@@ -17,7 +17,7 @@ public class OrderController {
 
     @RequestMapping("/findAll")
     public List<Order> findAll(){
-        System.out.println("============================>order A");
+        System.out.println("============================>order B");
       return orderService.orderFindAll();
     }
 }
